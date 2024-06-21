@@ -1,0 +1,161 @@
+.whylancebox {
+  background: #fcfdfd;
+  padding-bottom: 4rem;
+}
+
+.whylancebox-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.whylancebox-content h2 {
+  color: #0d3b66;
+}
+
+.whylancebox-flex_item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.whylancebox-flex_item img {
+  width: 1.8rem;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.whylancebox-flex_item p {
+  font-size: 1.2rem;
+  width: 32ch;
+}
+
+.whylancebox-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.how-lancebox_works {
+ padding-top: 0 !important;
+}
+
+.lancebox-heading h2 {
+  color: #0d3b66;
+}
+
+.lancebox-heading p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.lancebox-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, calc(50% - 1.6rem));
+  grid-template-rows: repeat(auto-fill, minmax(20rem));
+  gap: 1.6rem;
+}
+
+.lancebox-card_item {
+  border: 1px solid transparent;
+  border-radius: 0.657rem;
+  padding: 1rem;
+  box-shadow: 0 0.438rem 1.094rem 0 rgba(128, 142, 156, 15%);
+
+  margin-top: 2.4rem;
+}
+
+.lancebox-card_item img {
+  width: 2.845rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.lancebox-card_item h3 {
+  font-size: 0.875rem;
+}
+
+.lancebox-card_item p {
+  font-size: 0.766rem;
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 768px) {
+  .how-lancebox_works {
+    gap: 2.4rem;
+  }
+
+  .whylancebox-flex_item {
+    gap: 1.6rem;
+  }
+
+  .whylancebox-flex_item p {
+    font-size: 1.6rem;
+    width: 100%;
+  }
+
+  .how-lancebox_works {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .lancebox-heading h2 {
+    width: 11ch;
+    font-size: 2.8rem;
+  }
+
+  .lancebox-heading p {
+    width: 30ch;
+  }
+
+  .lancebox-card_item h3 {
+    font-size: 1.4rem;
+  }
+
+  .lancebox-card_item p {
+    font-size: 1.05rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .whylancebox-wrapper {
+    align-items: flex-start;
+  }
+
+  .whylancebox-content,
+  .whylancebox-image {
+    width: calc(50% - 3.2rem);
+  }
+
+  .whylancebox-flex_item p {
+    width: 35ch;
+    font-size: 1.6rem;
+  }
+
+  .lancebox-heading h2 {
+    font-size: 3.6rem;
+  }
+
+  .lancebox-heading p {
+    width: 30ch;
+    font-size: 1.6rem;
+  }
+
+  .lancebox-card_item h3 {
+    font-size: 1.6rem;
+  }
+
+  .lancebox-card_item p {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .whylancebox-flex_item p {
+    font-size: 2.2rem;
+  }
+}
